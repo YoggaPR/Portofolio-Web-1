@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Lato,sans-serif;
+}
+
+nav{
+    padding: 22px;
+    background: linear-gradient(120deg,#7f70f5,#0ea0ff)
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+    color: #fff;
+    font-size: larger;
+    font-weight: 700;
+}
+
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+li.push{
+    margin-left: auto;
+}
+
+.bio{
+    text-align: center;
+    padding: 20px;
+}
+
+.bio h1{
+    font-size: 70px;
+    margin: 0 auto 20px auto;
+}
+
+.bio .space{
+    height: 50px;
+}
+
+.bio h2{
+    font-size: 58px;
+    margin: 40px auto 40px auto;
+}
+
+.bio p{
+    font-size: 28px;
+}
+
+.top-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.top-section p{
+    text-align: center;
+    margin: 120px auto 30px auto;
+    font-size: x-large;
+}
+
+.top-section img{
+    display: block;
+    margin: 40px auto 40px auto;
+    border-radius: 200px;
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+}
+p.intro{
+    display: block;
+    margin: auto auto 40px auto;
+    font-size: x-large;
+    width: 800px;
+    text-align: center;
+    line-height: 35px;
+}
+
+a.btn-profile{
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 50px;
+    border: #0ea0ff 1px solid;
+    color: #0ea0ff;
+    text-decoration: none;
+    font-family: Montserrat;
+    display: block;
+    margin: auto;
+    width: 80px;
+}
+
+a.btn-profile:hover{
+    background-color: #0ea0ff;
+    color: #fff;
+}
+
+.main-section{
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.someSkill{
+    font-size: x-large;
+}
+
+p.skills{
+    text-align: center;
+    font-size: 70px;
+    margin: 40px auto 40px auto;
+    font-family: Montserrat;
+    color: black;
+    font-weight: bolder;
+}
+
+.skillcard{
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.card{
+    height: 100 px;
+    margin: 60px;
+    flex: 1;
+    border:linear-gradient(120deg,#7f70f5,#0ea0ff) solid 1px;
+    background: linear-gradient(120deg,#9CECFB,#65C7F7,#0052D4);
+    padding: 30px 0 40px 0 ;
+}
+
+.card img{
+    height: 180px;
+    width: 180px;
+    margin: auto;
+    display: block;
+}
+
+.card p{
+    text-align: center;
+    font-size: 2em;
+}
+
+.skill-title{
+    font-family: Fredoka One;
+    margin-bottom: 30px;
+}
+
+.skill-name{
+    margin: 12px auto 12px auto;
+    font-weight: bold;
+}
+
+.education{
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(120deg,#3494E6,#EC6EAD);
+    padding: 100px 50px 100px 50px;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.education .list-edu h2, p{
+    letter-spacing: 2px;
+    margin: 30px auto 30px auto;
+}
+
+.education .list-edu h2{
+    font-size: 60px;
+}
+
+.education .list-edu p{
+    font-size: 30px;
+}
+
+.gambar-edu img{
+    height: 320px;
+    width: 320px;
+}
+
+.footer{
+    background: linear-gradient(120deg,#7f70f5,#0ea0ff);
+    text-align: center;
+    padding: 30px;
+}
+
+.foot{
+    color: #fff;
+    font-family: Montserrat;
+}
+
+.foot a{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.socmed{
+    padding: 10px 10px 10px 0;
+}
+
+.fa{
+    padding: 10px;
+    font-size: 30px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  .fa:hover{
+    background: #fff;
+    color: #000000;
+  }
+
+  .fa-facebook {
+    background: #000000;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #000000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #000000;
+    color: white;
+  }
